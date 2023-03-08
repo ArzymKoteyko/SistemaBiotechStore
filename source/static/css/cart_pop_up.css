@@ -1,0 +1,34 @@
+.CartPopUp {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.CartPopUp .exit {
+    height: 14vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+}
+
+.CartPopUp .cart {
+    overflow: scroll;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 8vw;
+}
+
+.cart form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.cart input {
+    border: 1px solid black;
+    height: 12vw;
+    margin-top: 5vw;
+}

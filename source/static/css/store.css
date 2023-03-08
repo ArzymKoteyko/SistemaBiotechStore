@@ -1,0 +1,6 @@
+.Store {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+}

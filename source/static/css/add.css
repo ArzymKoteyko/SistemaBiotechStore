@@ -1,0 +1,7 @@
+.Add {
+    width: 100vw;
+    height: 40vw;
+    background-image: url("../img/AddBackground.webp");
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,62 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: var(--card-width);
+    height: var(--card-height);
+}
+
+.Card .productImage {
+    background-image: url("../img/imunitet.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Card h3, .Card h2, .Card h4 {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    line-height: 6vw;
+}
+
+.Card h3 {
+    margin-top: 6vw;
+    font-size: 4vw;
+}
+
+.Card h2, .Card h4 {
+    margin-top: 2.5vw;
+}
+
+.Card h2 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.Card h4 {
+    flex-grow: 1;
+    font-size: 3vw;
+}
+
+.Card .more, .Card .buy {
+    margin-top: 2vw;
+    height: 10vw;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.Card .more {
+    border: solid 1px #1a428a;
+    color: #1a428a;
+}
+
+.Card .buy {
+    background-color: #1a428a;
+    color: white;
+}
+
